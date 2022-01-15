@@ -351,6 +351,25 @@ input[type="search"] {
 
 
 /* =================
+    Get In  Touch
+=================== */
+.form-group {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.message input[type="text"], .message input[type="email"] {
+    padding: 8px;
+    width: 100%;
+    margin: 10px 10px;
+}
+textarea{
+    margin: 10px;
+    padding: 10px;
+}
+
+/* =================
     Footer Part
 =================== */
 
