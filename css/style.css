@@ -189,6 +189,17 @@ hr {
 /* =================
     Header Part
 =================== */
+.logo {
+  background-color: #cbcec9;
+  animation-name: logo;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes logo {
+  from {background-color: #cbcec9;}
+  to {background-color: #ffffff;}
+}
 
 #header {
   height: 60px;
@@ -699,5 +710,12 @@ textarea {
 @media only screen and (max-width: 280px) {
   .main-menu .menu-item li {
     font-size: 12px;
+  }
+}
+/* Large Device */
+
+@media only screen and (min-width: 768px) {
+  .logo {
+    width: 50%;
   }
 }
